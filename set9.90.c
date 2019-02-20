@@ -3,14 +3,14 @@
 void main()
 {
 char a1[20];
-int i;
+int n;
 clrscr();
 gets(a1);
-for(i=0;a1[i]!='\0';i++)
+for(n=0;a1[n]!='\0';n++)
 {
-if(a1[i]>='0' && a1[i]<='9')
+if(a1[n]>='0' && a1[n]<='9')
 {
-printf("%c",a1[i]);
+printf("%c",a1[n]);
 }
 }
 getch();
